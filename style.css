@@ -1,0 +1,130 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .header{
+    height: 120px;
+    width: 100vw;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+background-color: aqua;
+ }
+ .navbar{
+    padding-top: 30px;
+    padding-left: 350px;
+ }
+.logo{
+    padding-top: 20px;
+}
+ a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(224, 158, 15);
+ }
+ a:hover{
+    color: rgb(168, 8, 96);
+ }
+ span{
+    color: goldenrod;
+ }
+ .container{
+    height: 110vh;
+    width: 100vw;
+    background:linear-gradient(aqua,goldenrod);
+ }
+ .left{
+    height: 110vh;
+    padding-left: 100px;
+    padding-top: 120px;
+    width: 45vw;
+    float: left;
+ }
+ .right{
+    float: right;
+    height: 110vh;
+    width: 45vw;
+    padding-top: 60px;
+    padding-right: 20px;
+    float: right;
+ }
+
+ .h2{
+color: goldenrod;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+ p{
+    color: white;
+    width: 400px;
+    word-spacing: 2px;
+ }
+ .iog{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    transition: 3s all;
+ }
+ .iog:hover{
+    transform: scale(1.2,1.2)
+ }
+ .btn{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    transition: 1.2s all;
+ margin-top: 40px;
+ border: none;
+    background-color: goldenrod;
+ }
+
+ .btn:hover{
+    color: gold;
+    background-color: white;
+ }
+
+ .gallery{
+    height: 120vh;
+    width: 80vw;
+    overflow-x: hidden;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+ }
+ .box{
+  position: relative;
+  margin: 20px;  height: 330px;
+    width: 330px;
+    overflow: hidden;
+ }
+ h4{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    background-color: hotpink;
+    padding: 5px;
+ }
+ .img{
+    transition: 2s all;
+ }
+ .box:hover .img{
+    transform: scale(1.13,1.13);
+ }
+ .form-control{
+    height: 150px;
+    width: 300px;
+    padding-left: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    border: 2px solid goldenrod;
+ }
